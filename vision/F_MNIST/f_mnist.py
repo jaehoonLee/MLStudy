@@ -1,7 +1,7 @@
 import torch
 import time
 from torchvision import datasets, transforms
-from vision.MNIST.classifier import Classifier
+from vision.F_MNIST.classifier import Classifier
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
