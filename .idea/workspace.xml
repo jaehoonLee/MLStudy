@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fa612c0-a3a4-45f5-b613-4406f4876cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vision/CNN/net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/CNN/layer_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/CNN/layer_visualization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vision/MNIST/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="10" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -42,9 +41,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vision/CNN/layer_visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vision/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vision/F_MNIST/f_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -74,29 +97,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp/w2v/Network/w2vDense.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nlp/w2v/globalconfig.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp/w2v/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -200,13 +206,6 @@
             <path>
               <item name="DeargenStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeargenStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="w2v" type="462c0819:PsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeargenStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeargenStudy" type="462c0819:PsiDirectoryNode" />
               <item name="vision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,6 +213,19 @@
               <item name="DeargenStudy" type="462c0819:PsiDirectoryNode" />
               <item name="vision" type="462c0819:PsiDirectoryNode" />
               <item name="CNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeargenStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeargenStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeargenStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeargenStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="F_MNIST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeargenStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -243,11 +255,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vision/CNN/data" />
       <recent name="$PROJECT_DIR$/nlp/w2v/Network" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/vision" />
       <recent name="$PROJECT_DIR$/MNIST" />
-      <recent name="$PROJECT_DIR$/MNIST/classifier" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.layer_visualization">
+  <component name="RunManager" selected="Python.mnist">
     <configuration name="layer_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeargenStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,9 +282,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="sftp://ec2-user@52.90.39.117:22/home/ec2-user/anaconda3/envs/deargen/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vision/CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -382,11 +394,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mnist" />
         <item itemvalue="Python.layer_visualization" />
         <item itemvalue="Python.w2v (2)" />
         <item itemvalue="Python.w2v" />
         <item itemvalue="Python.w2v (1)" />
-        <item itemvalue="Python.mnist" />
       </list>
     </recent_temporary>
   </component>
@@ -407,23 +419,23 @@
       <workItem from="1600927606717" duration="8844000" />
       <workItem from="1601173710046" duration="14199000" />
       <workItem from="1601197865738" duration="3840000" />
-      <workItem from="1601258696935" duration="5758000" />
+      <workItem from="1601258696935" duration="7467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41745000" />
+    <option name="totallyTimeSpent" value="43454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22649573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493895" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4920635" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,14 +444,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4957265" weight="0.328341" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.493895" visible="true" weight="0.328341" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.506105" side_tool="true" visible="true" weight="0.328341" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.492674" weight="0.328341" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50793654" side_tool="true" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Jupyter" order="14" sideWeight="0.4993895" visible="true" weight="0.32949308" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -461,10 +473,10 @@
     <SUITE FILE_PATH="coverage/DeargenStudy$w2v.coverage" NAME="w2v Coverage Results" MODIFIED="1601189005127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/w2v" />
     <SUITE FILE_PATH="coverage/DeargenStudy$w2v__1_.coverage" NAME="w2v (1) Coverage Results" MODIFIED="1601178127376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/skipGram" />
     <SUITE FILE_PATH="coverage/DeargenStudy$w2v__2_.coverage" NAME="w2v (2) Coverage Results" MODIFIED="1601269759460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/w2vDense" />
-    <SUITE FILE_PATH="coverage/DeargenStudy$layer_visualization.coverage" NAME="layer_visualization Coverage Results" MODIFIED="1601446824080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vision/CNN" />
+    <SUITE FILE_PATH="coverage/DeargenStudy$layer_visualization.coverage" NAME="layer_visualization Coverage Results" MODIFIED="1601448483951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vision/CNN" />
     <SUITE FILE_PATH="coverage/DeargenStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1600153303720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeargenStudy$sentiment.coverage" NAME="sentiment Coverage Results" MODIFIED="1600245597288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/imdb" />
-    <SUITE FILE_PATH="coverage/DeargenStudy$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1601007165490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vision/MNIST" />
+    <SUITE FILE_PATH="coverage/DeargenStudy$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1601448492024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vision/MNIST" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -630,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision/F_MNIST/f_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nlp/skipGram/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -690,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision/MNIST/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vision/CNN/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -713,8 +705,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vision/F_MNIST/f_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vision/CNN/layer_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision/MNIST/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
