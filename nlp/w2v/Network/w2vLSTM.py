@@ -18,14 +18,14 @@ class LSTM(nn.Module):
         output, (hidden, cell) = self.lstm(x)  # batch x 500 x 100
 
         # Pick up last one
-        #         x = output[:,-1] # Extract Last
-        #         x = self.dropout(x)
-        #         x = self.sigmoid(self.fc1(x))
-
-        # Stack up and pick up last one
-        x = output.contiguous().view(-1, HIDDEN_DIM)
+        x = output[:,-1] # Extract Last
         x = self.dropout(x)
         x = self.sigmoid(self.fc1(x))
-        x = x.view(BATCH_SIZE, -1)
-        x = x[:, -1]
+
+        # Stack up and pick up last one
+        # x = output.contiguous().view(-1, HIDDEN_DIM)
+        # x = self.dropout(x)
+        # x = self.sigmoid(self.fc1(x))
+        # x = x.view(BATCH_SIZE, -1)
+        # x = x[:, -1]
         return x
