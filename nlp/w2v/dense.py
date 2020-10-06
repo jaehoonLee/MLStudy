@@ -62,7 +62,6 @@ optimizer = optim.Adam(model.parameters(), lr=0.003)
 
 # Training
 epochs = 10
-train_losses, test_losses = [], []
 for e in range(epochs):
     running_loss = 0
     start = time.time()
@@ -92,8 +91,6 @@ for e in range(epochs):
 
                 test_loss += criterion(output, labels)
                 eval_acc += calculate_acc(output, labels)
-    train_losses.append(running_loss)
-    test_losses.append(test_loss)
 
     print("==============================================")
     print(f"Device = {DEVICE}; Elapsed time {(time.time() - start):.3f} seconds")
